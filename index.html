@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Mubite — Consumer Warning & User Reports | mubite.com review</title>
+  <meta name="description" content="Consumer warning and user reports about mubite.com. Read user reviews, check licensing guidance, see reported star rating, and contact @jewelrev on Telegram for help." />
+  <!-- SEO keywords (use responsibly) -->
+  <meta name="keywords" content="mubite.com scam, mubite.com legit, mubite.com reviews, mubite.com review, is mubite.com scam or legit" />
+
+  <style>
+    :root{
+      --accent:#c62828;
+      --muted:#555;
+      --bg:#f7f7f9;
+      --card:#ffffff;
+      --radius:10px;
+      --shadow:0 6px 18px rgba(22,27,34,0.08);
+    }
+    body{font-family:Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; background:var(--bg); color:#111; margin:0; padding:24px;}
+    .container{max-width:900px;margin:20px auto;}
+    header{display:flex;gap:16px;align-items:center;}
+    h1{margin:0;font-size:1.4rem;}
+    .warning-pill{background:linear-gradient(90deg,#ffebee,#ffcdd2);color:#7f1d1d;padding:8px 12px;border-radius:999px;font-weight:600;font-size:.9rem;}
+    .card{background:var(--card);padding:18px;border-radius:var(--radius);box-shadow:var(--shadow);margin-top:16px;}
+    .meta{color:var(--muted);font-size:.95rem;}
+    .lead{margin-top:8px;color:#222;line-height:1.5;}
+    .section{margin-top:18px;}
+    .steps{display:grid;grid-template-columns:1fr 1fr;gap:12px;}
+    .step{background:#fbfbfc;padding:12px;border-radius:8px;border:1px solid #eef0f2;}
+    .stars{display:flex;align-items:center;gap:8px;font-size:0.95rem}
+    .star-rating{display:flex;gap:6px;cursor:pointer}
+    .star{width:26px;height:26px;display:inline-flex;align-items:center;justify-content:center;background:linear-gradient(#ffd54f,#ffb300);color:#fff;border-radius:6px;box-shadow:0 2px 6px rgba(0,0,0,0.08);}
+    .star.inactive{background:#e6e6e6;color:#aaa;}
+    .rating-note{color:var(--muted);font-size:.9rem;}
+    .report-list{list-style:none;padding:0;margin:0}
+    .report-list li{padding:10px 0;border-bottom:1px dashed #eee}
+    .danger{color:var(--accent);font-weight:700}
+    .actions{margin-top:14px;display:flex;gap:10px;flex-wrap:wrap}
+    .btn{padding:10px 14px;border-radius:8px;text-decoration:none;color:white;background:#2b6cb0}
+    .btn.warn{background:var(--accent)}
+    footer{margin-top:24px;color:var(--muted);font-size:.9rem}
+
+    /* Floating Telegram button */
+    .tg-fab{
+      position:fixed;
+      right:18px;
+      bottom:18px;
+      z-index:9999;
+      display:flex;
+      gap:10px;
+      align-items:center;
+      background:#0088cc;
+      color:#fff;
+      padding:12px 14px;
+      border-radius:999px;
+      box-shadow:0 10px 30px rgba(3, 114, 153, 0.18);
+      text-decoration:none;
+      font-weight:600;
+      transition:transform .12s ease;
+    }
+    .tg-fab:hover{transform:translateY(-4px)}
+    .tg-icon{width:26px;height:26px;display:inline-block;background:#fff;border-radius:6px;padding:4px}
+    .tg-username{font-size:.95rem;margin-left:6px}
+
+    @media (max-width:680px){
+      .steps{grid-template-columns:1fr;}
+      .container{padding:12px}
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="warning-pill">Consumer Advisory</div>
+      <h1>mubite.com — User Reports & Review (User-reported rating)</h1>
+    </header>
+
+    <div class="card">
+      <div class="meta">Last updated: <strong id="lastUpdated">October 3, 2025</strong> • This page summarizes consumer reports and guidance — not a legal finding.</div>
+      <p class="lead">
+        This page compiles <strong class="danger">user reports and complaints</strong> concerning <em>mubite.com</em>. The content below reflects what users have reported to this page and to public complaint boards. It is presented as a cautionary resource — not as a definitive legal judgment. Please verify any claim using primary sources such as regulator statements or court records.
+      </p>
+
+      <div class="section">
+        <h2>Aggregate (user‑reported) star rating</h2>
+        <div class="card" style="display:flex;align-items:center;justify-content:space-between;gap:12px;">
+          <div>
+            <div class="stars" aria-hidden="true">
+              <div id="starContainer" class="star-rating" title="Click to submit your user-reported rating">
+                <div class="star inactive" data-value="1">★</div>
+                <div class="star inactive" data-value="2">★</div>
+                <div class="star inactive" data-value="3">★</div>
+                <div class="star inactive" data-value="4">★</div>
+                <div class="star inactive" data-value="5">★</div>
+              </div>
+            </div>
+            <div class="rating-note" id="ratingNote">This is a <strong>user-reported</strong> rating. It reflects the opinions of visitors who have claimed problems or satisfaction.</div>
+          </div>
+          <div style="text-align:right;">
+            <div style="font-size:1.2rem;font-weight:700" id="avgRating">—</div>
+            <div class="rating-note" id="ratingCount">0 reports</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section">
+        <h2>Common user-reported issues (examples)</h2>
+        <ul class="report-list" id="reports">
+          <li><strong>[Date]</strong> — User A: Claimed delays in withdrawal, despite several requests and full verification.</li>
+          <li><strong>[Date]</strong> — User B: Reported unexpected balance deductions with no clear explanation.</li>
+          <li><strong>[Date]</strong> — User C: Alleged that support stopped replying after a profit was made.</li>
+        </ul>
+        <p class="rating-note">If you submit a report, please include verifiable details (dates, screenshots, transaction IDs) so others and regulators can assess the claim.</p>
+      </div>
+
+      <div class="section">
+        <h2>How to verify a broker (quick checklist)</h2>
+        <div class="steps">
+          <div class="step">
+            <h4>1. Check regulatory registration</h4>
+            <p class="meta">Look up the broker on the website of the relevant regulator(s) — e.g., FCA (UK), ASIC (Australia), CySEC (EU), NFA/SEC (US), etc.</p>
+          </div>
+          <div class="step">
+            <h4>2. Confirm company details</h4>
+            <p class="meta">Match the website data with official company registries (address, company number, licensing name).</p>
+          </div>
+          <div class="step">
+            <h4>3. Search independent complaint boards</h4>
+            <p class="meta">Use multiple sources: forums, consumer complaint portals, and official regulator warning lists.</p>
+          </div>
+         
